@@ -2,12 +2,13 @@ import { ExternalLink, Quote } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 import { site } from "@/data/site";
 import { getScholarProfile, scholarProfileUrl } from "@/lib/scholar";
+import { fallbackScholarProfile } from "@/data/publications";
 
 const FALLBACK_NOTE =
-  "Live data from Google Scholar is temporarily unavailable. Visit the profile directly for the latest publications and citation metrics.";
+  "Visit the profile directly for the latest publications and citation metrics.";
 
 export async function Publications() {
-  const profile = await getScholarProfile(site.scholarUserId);
+  const profile = (await getScholarProfile(site.scholarUserId)) ?? fallbackScholarProfile;
   const profileUrl = scholarProfileUrl(site.scholarUserId);
 
   return (
