@@ -11,6 +11,17 @@
   --cream-foreground: #18181b;
 }
 
+.light {
+  --background: #ece5d6;
+  --foreground: #1c1917;
+  --muted: #6b6256;
+  --card: #f6f1e7;
+  --border: #d8cfbd;
+  --accent: #3f6fb0;
+  --cream: #1c1917;
+  --cream-foreground: #f6f1e7;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
