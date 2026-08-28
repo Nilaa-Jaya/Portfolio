@@ -163,6 +163,7 @@ export const skills: SkillGroup[] = [
       "LangGraph",
       "LlamaIndex",
       "Sentence Transformers",
+      "Azure AI Foundry",
     ],
   },
   {
@@ -222,9 +223,14 @@ export const skills: SkillGroup[] = [
       "Data Modeling",
       "Data Quality Monitoring",
       "CI/CD",
+      "DevOps",
       "Model Deployment",
       "Model Monitoring",
       "Infrastructure as Code",
+      "Serverless Computing",
+      "Azure Functions",
+      "Azure Data Explorer (Kusto)",
+      "Kusto Query Language (KQL)",
     ],
   },
   {
