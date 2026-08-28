@@ -7,6 +7,7 @@ import {
   SiScala,
   SiCplusplus,
   SiC,
+  SiSharp,
   SiPytorch,
   SiTensorflow,
   SiKeras,
@@ -72,6 +73,7 @@ export const toolSkills: SkillIconGroup[] = [
       { name: "Scala", icon: SiScala, color: "#DC322F" },
       { name: "C++", icon: SiCplusplus, color: "#00599C" },
       { name: "C", icon: SiC, color: "#A8B9CC" },
+      { name: "C#", icon: SiSharp, color: "#239120" },
     ],
   },
   {
@@ -105,6 +107,7 @@ export const toolSkills: SkillIconGroup[] = [
       { name: "Apache Kafka", icon: SiApachekafka, color: DARK },
       { name: "Apache Airflow", icon: SiApacheairflow, color: "#017CEE" },
       { name: "Databricks", icon: SiDatabricks, color: "#FF3621" },
+      { name: "Azure Synapse", icon: VscAzure, color: "#0078D4" },
     ],
   },
   {
