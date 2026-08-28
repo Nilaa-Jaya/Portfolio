@@ -229,6 +229,7 @@ export const skills: SkillGroup[] = [
       "Infrastructure as Code",
       "Serverless Computing",
       "Azure Functions",
+      "Azure Synapse Analytics",
       "Azure Data Explorer (Kusto)",
       "Kusto Query Language (KQL)",
     ],
