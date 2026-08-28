@@ -1,5 +1,5 @@
 import type { IconType } from "react-icons";
-import { Database } from "lucide-react";
+import { Database, Layers } from "lucide-react";
 import {
   SiPython,
   SiR,
@@ -8,6 +8,7 @@ import {
   SiCplusplus,
   SiC,
   SiSharp,
+  SiTypescript,
   SiPytorch,
   SiTensorflow,
   SiKeras,
@@ -31,10 +32,12 @@ import {
   SiApachekafka,
   SiApacheairflow,
   SiDatabricks,
+  SiRedis,
   SiGooglecloud,
   SiDocker,
   SiKubernetes,
   SiGithubactions,
+  SiGithubcopilot,
   SiMlflow,
   SiGit,
   SiGithub,
@@ -44,6 +47,10 @@ import {
   SiGooglecolab,
   SiFastapi,
   SiFlask,
+  SiTerraform,
+  SiJenkins,
+  SiGnubash,
+  SiApachemaven,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa6";
 import { VscAzure, VscVscode } from "react-icons/vsc";
@@ -74,6 +81,7 @@ export const toolSkills: SkillIconGroup[] = [
       { name: "C++", icon: SiCplusplus, color: "#00599C" },
       { name: "C", icon: SiC, color: "#A8B9CC" },
       { name: "C#", icon: SiSharp, color: "#239120" },
+      { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
     ],
   },
   {
@@ -92,6 +100,7 @@ export const toolSkills: SkillIconGroup[] = [
       { name: "OpenCV", icon: SiOpencv, color: "#5C3EE8" },
       { name: "spaCy", icon: SiSpacy, color: "#09A3D5" },
       { name: "Streamlit", icon: SiStreamlit, color: "#FF4B4B" },
+      { name: "PEFT", icon: Sparkles, color: "#A78BFA" },
     ],
   },
   {
@@ -108,6 +117,9 @@ export const toolSkills: SkillIconGroup[] = [
       { name: "Apache Airflow", icon: SiApacheairflow, color: "#017CEE" },
       { name: "Databricks", icon: SiDatabricks, color: "#FF3621" },
       { name: "Azure Synapse", icon: VscAzure, color: "#0078D4" },
+      { name: "PySpark", icon: SiApachespark, color: "#E25A1C" },
+      { name: "Redis", icon: SiRedis, color: "#DC382D" },
+      { name: "Delta Lake", icon: Layers, color: "#00ADD4" },
     ],
   },
   {
@@ -129,6 +141,12 @@ export const toolSkills: SkillIconGroup[] = [
       { name: "Google Colab", icon: SiGooglecolab, color: "#F9AB00" },
       { name: "Jira", icon: SiJirasoftware, color: "#0052CC" },
       { name: "Postman", icon: SiPostman, color: "#FF6C37" },
+      { name: "GitHub Copilot", icon: SiGithubcopilot, color: DARK },
+      { name: "CI/CD", icon: Workflow, color: "#8250DF" },
+      { name: "Terraform", icon: SiTerraform, color: "#7B42BC" },
+      { name: "Jenkins", icon: SiJenkins, color: "#D33833" },
+      { name: "Bash", icon: SiGnubash, color: "#4EAA25" },
+      { name: "Maven", icon: SiApachemaven, color: "#C71A36" },
     ],
   },
 ];
